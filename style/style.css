@@ -379,16 +379,35 @@ body{
     height: 500px;
 }
 .Satorini-title{
-    margin-right: 0 auto;
-    border: 2px solid red;
+    margin-left: 500px;
+    margin-bottom: auto;
+    /* border: 2px solid red; */
     width: 579px;
     height: 389px;
     border-radius: 16px;
     border: 2px solid #FFF;
     background: rgba(255, 255, 255, 0.80);
+    /* display: flex;
+    justify-content: space-around; */
+    padding: 20px 20px;
+}
+.satorini-icon{
     display: flex;
     justify-content: space-around;
-    padding: 20px 20px;
+
+}
+.Satorini-text{
+    padding: 40px 40px;
+    width: 24px;
+    height: 24px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-family: Mulish;
+    font-size: 18px;
+    text-align:center;
+
 }
 
 .people{
@@ -396,8 +415,6 @@ body{
     display: flex;
     width: 24px;
     height: 24px;
-    justify-content: space-around;
-    align-items: center;
     gap: 20px;
     font-weight: 400;
     font-family: Mulish;
