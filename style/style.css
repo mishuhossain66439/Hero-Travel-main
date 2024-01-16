@@ -83,6 +83,7 @@ body{
 
 }
 .content-header{
+    gap: 40px;
     color: #FFF;
     font-family: Mulish;
     font-size: 64px;
@@ -99,7 +100,6 @@ body{
     padding: 16px;
     align-items: center;
     gap: 10px;
-
 }
 
 .btn-title{
@@ -121,11 +121,145 @@ body{
     width: 174px;
     height: 52px;
 }
-
 ::placeholder{
     text-align: left;
     font-weight: 600;
 }
+
+.chossen-destinatina{
+    /* max-width:1200px; */
+    margin: 0 auto;
+    width: 1200px;
+    height: 1200px;
+    /* border: 2px solid blue; */
+    gap: 50px;
+}
+.chossen-destinatina-title{
+    min-width: 200px;
+    /* border: 2px solid blue; */
+    background-size: 1200px;
+    width: 1200px;
+    height: 100px;
+    align-items: center;
+    gap:10px;
+    text-align: center;
+
+}
+.chossen-destinatina-1{
+    margin-top: 20px;
+    /* border: 2px solid red; */
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    /* gap: 20px; */
+    
+}
+.Maldives{
+    width:600px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    /* display: flex; */
+}
+.Indonsia{
+    margin-left: 50px;
+    width:600px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    text-align: center;
+    /* display: flex; */
+    align-items: center;
+}
+.chossen-destinatina-2{
+    margin-top: 30px;
+    /* border: 2px solid yellow; */
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    /* gap: 20px; */
+
+}
+.Srilanka{
+    width:400px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 6.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 16px;
+}
+.North-America{
+    gap: 40px;
+    width: 474px;
+    height: 286px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 7.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 16px;
+}
+.Kashmir{
+    margin-left: 20px;
+    width: 274px;
+    height: 286px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 9.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 16px;
+}
+.chossen-destinatina-3{
+    margin-top: 30px;
+    /* border: 2px solid green; */
+    width: 1200px;
+    height: 300px;
+    display: flex;
+    justify-content:space-around;
+    /* gap: 20px; */
+}
+.Bangladesh{
+    margin-right: 20px;
+    width: 473px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 11.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 16px;
+}
+.Bandarban{
+    margin-left: 20px;
+    width: 673px;
+    height: 300px;
+    /* border: 2px solid blue; */
+    background-image: url('../Images/Rectangle\ 10.png');
+    background-repeat: no-repeat;
+    /* text-align: center; */
+    align-items: center;
+    border-radius: 16px;
+}
+
+.Country-Name{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    /* align-items: center; */
+    
+}
+
 
 .container-2{
     margin: 100px auto;
@@ -158,10 +292,10 @@ body{
 
 .destination-section{
     margin: 100px auto;
-    border: 2px solid red;
+    /* border: 2px solid red; */
     background-size: 1200px;
     width: 1200px;
-    height: 800px;
+    height: 600px;
     gap:20px;
 }
 
@@ -205,8 +339,9 @@ body{
 }
 
 .des-destination-3{
+   margin: 20px ;
    margin-left: 300px; 
-   border: 2px solid blue;
+   /* border: 2px solid blue; */
    background-color: #b2e94455;
    width: 600px;
    height: 200px;
@@ -217,6 +352,56 @@ body{
    font-size: 16px;
    font-weight: 400;
    padding: 20px;
-   
+
+}
+
+.deals{
+    margin: 100px auto;
+    /* border: 2px solid; */
+    width: 1200px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.deals-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+}
+.Satorini{
+    margin: 0 auto;
+    background-image: url('../Images/Group\ 39.png');
+    background-repeat: no-repeat;
+    width: 1170px;
+    height: 500px;
+}
+.Satorini-title{
+    margin-right: 0 auto;
+    border: 2px solid red;
+    width: 579px;
+    height: 389px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 20px;
+}
+
+.people{
+    padding: 40px 40px;
+    display: flex;
+    width: 24px;
+    height: 24px;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-weight: 400;
+    font-family: Mulish;
+    font-size: 18px;
+    text-align:center;
 
 }
