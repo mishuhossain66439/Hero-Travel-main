@@ -3,7 +3,9 @@
     .nav-container,
     .main-container,
     .header-title,
-    .Banner-tag{
+    .Banner-tag,
+    .container-2,
+    .destination-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 100%;
@@ -16,7 +18,9 @@
     .nav-container,
     .main-container,
     .header-title,
-    .Banner-tag{
+    .Banner-tag,
+    .container-2,
+    .destination-section{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         width: 100%;

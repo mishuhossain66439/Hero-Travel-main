@@ -112,6 +112,7 @@ body{
     gap: 10px;
     color: #FFF;
     justify-content: center;
+    border: none ;
 }
 
 .text-input{
@@ -127,23 +128,76 @@ body{
 }
 
 .container-2{
-    margin: 20px auto;
-    border: 2px solid red;
+    margin: 100px auto;
+    /* border: 2px solid red; */
     display: flex;
     background-size: 1200px;
     width: 1200px;
     height: 500px;
     align-items: center;
-    gap: 20px;
+    gap:20px;
 }
 
 .Text-Content{
     
-    border: 2px solid red;
-    width: 40%;
+    /* border: 2px solid red; */
+    width: 50%;
+    margin-left: 30px;
+    font-weight: 400;
 }
 
 .img-des{
+    /* border: 2px solid blue; */
+    /* width: 50%; */
+    border-radius: 16px;
+    object-fit: cover;
+    width: 540px;
+    height: 550px;
+   
+}
+
+.destination-section{
+    margin: 100px auto;
+    border: 2px solid red;
+    background-size: 1200px;
+    width: 1200px;
+    height: 500px;
+    gap:20px;
+}
+
+.title-destination{
     border: 2px solid blue;
-    width: 40%;
+    min-width: 200px;
+    border-radius: 16px;
+    justify-content: center;
+    text-align: center; 
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.des-destination{
+    display: flex;
+    gap: 20px;
+    
+}
+
+.des-destination-1{
+    margin-left: 0;
+    background-color:#FBB563 20% ;
+    border: 2px solid blue;
+    width: 600px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 20px;
+}
+
+.des-destination-2{
+    margin-right: 0;
+    background-color:#29CEF633;
+    border: 2px solid blue;
+    width: 600px;
+    height: 200px;
+    border-radius: 16px;
+    padding: 20px;
 }
